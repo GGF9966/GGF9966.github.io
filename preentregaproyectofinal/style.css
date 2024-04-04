@@ -1,0 +1,41 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400..700&display=swap');
+
+.navbar-brand{
+    font-family: "Edu NSW ACT Foundation", cursive;
+}
+
+.container{
+    background-color: #D0D3D4;
+    width: auto;
+    height: auto;
+    margin: 0%;
+    padding: 0%;
+}
+
+#copyright{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 10px; 
+    height: 3rem;
+    text-align: center;
+}
+
+.img-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-container img {
+    width: 25%; /* Divide el espacio en cuatro partes iguales */
+    max-width: 100%; /* Ajusta el tamaño máximo de las imágenes */
+    height: auto; /* Mantiene la proporción de aspecto */
+}
